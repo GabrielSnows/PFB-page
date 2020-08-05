@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/banner.png" alt="banner" />
+    </header>
+
+    <nav>
+        <a class="a-menu" href="index.html">HOME</a>
+        <a class="a-menu" href="index.html#pag-beneficios">BENEFÍCIOS</a>
+        <a class="a-menu" href="index.html#pag-modalidades">MODALIDADES</a>
+        <a class="a-menu" href="index.html#pag-treinos">TREINOS</a>
+        <a class="a-menu" href="#">AGENDAMENTOS</a>
+    </nav>
+
+    <section id="pag-agendamentos">
+        <h1> Agendamentos </h1>
+
+        <p> Agende uma aula experimental Grátis!</p>
+
+
+        <form name="" method="" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="complete_name" placeholder="Nome Completo" autofocus />
+
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="nome@email.com" />
+
+
+            <label for="password">Senha:</label>
+            <input id="password" type="password" name="password" placeholder="Somente Números" />
+
+
+            <label for="celular">Celular:</label>
+            <input id="phone" type="tel" name="phone" placeholder="(99)99999-9999"
+                pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+
+            <div id="date-time-num">
+                <div>
+                    <label for="date">Data:</label>
+                    <input id="date" type="date" name="date" />
+                </div>
+                <div>
+                    <label for="time">Hora:</label>
+                    <input id="time" type="time" name="time" />
+                </div>
+                <div>
+                    <label for="class">Aulas:</label>
+                    <input id="class" type="number" name="class" min="1" max="10" step="1" />
+                </div>
+            </div>
+
+            <label for="level">Nível:</label>
+            <select id="level" name="level">
+                <option value="">Selecione</option>
+                <option value="beginner">Iniciante</option>
+                <option value="basic">Básico</option>
+                <option value="intermediate">Intermediário</option>
+                <option value="advanced">Avançado</option>
+            </select>
+
+
+            <fieldset>
+                <legend>Gênero:</legend>
+                <input id="masc" type="radio" name="gender" value="masc" /> <label for="masc">Masculino</label>
+                <input id="fam" type="radio" name="gender" value="fam" /> <label for="fam">Feminino</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Atividades:</legend>
+                <input id="mus" type="checkbox" name="atividade" value="muscle" /> <label for="mus">Musculação</label>
+                <input id="pila" type="checkbox" name="atividade" value="pilates" /> <label for="pila">Pilates</label>
+                <input id="run" type="checkbox" name="atividade" value="run" /> <label for="run">Corrida</label>
+                <input id="yoga" type="checkbox" name="atividade" value="yoga" /> <label for="yoga">Yoga</label>
+            </fieldset>
+
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" cols="55" rows="4"></textarea>
+
+            <div id="button-form">
+                <input type="submit" name="but_send" value="AGENDAR">
+                <input type="reset" name="but_delete" value="CANCELAR">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            Desenvolvido por
+            <a href="https://www.linkedin.com/in/gabriel-sousa-neves/" target="_blank">
+                Gabriel Snows
+            </a> - 2020
+        </p>
+    </footer>
+</body>
+
+</html>
