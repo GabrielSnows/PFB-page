@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;700&display=swap');
 
 :root {
-    --box-color:#00bcd4;
-    --title-color: #3F51B5;
+    --box-color:#015A87;
+    --title-color: #2A5289;
     --white-color:#FFF;
     --black-color:#000;
     --shadow-color:#CCC
@@ -47,7 +47,7 @@ a {
     transition: 200ms;
 }
 
-
+/* Main */
 
 article {
     width: 100%;
@@ -89,6 +89,8 @@ h2 {
     text-align: justify;
 }
 
+/* Seção de benefícios */
+
 #pag-beneficios {
     padding: 40px 400px;
     background-color: var(--box-color);
@@ -113,6 +115,8 @@ li {
     color: var(--white-color);
     margin-bottom: 10px;
 }
+
+/* Seção de modalidades */
 
 #pag-modalidades {
     background-color: #EEE;
@@ -162,9 +166,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-#pag-treinos {
-
-}
+/* Seção de treinos */
 
 #pag-treinos p {
     margin-bottom: 10px;
@@ -204,6 +206,8 @@ video {
   width: 400px;
 }
 
+/* footer */
+
 footer {
     background-color: var(--black-color);
     padding: 15px;
@@ -221,72 +225,4 @@ footer a {
 footer a:hover {
     color: var(--box-color);
     transition: 200ms;
-}
-
-
-/* Página de Agendamentos */
-
-#pag-agendamentos {
-
-}
-
-#pag-agendamentos p {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-form {
-	width: 400px;
-	margin: 0 auto;
-}
-
-input, select, textarea {
-	width: 100%;
-	height: 30px;
-	margin-bottom: 10px;
-	padding-left: 5px;
-	box-sizing: border-box;
-	border: 1px solid #C4C4C4;
-	color: #777;
-}
-
-label, fieldset, input, select, textarea {
-	font: 1rem 'Roboto', sans-serif;
-}
-
-
-fieldset {
-	border: 1px solid #CCC;
-	margin-bottom: 10px;
-	padding:10px;
-} 
-
-#date-time-num {
-    display: flex;
-}
-
-input[type="radio"], input[type="checkbox"] {
-	width: 20px;
-	height: 12px;
-    margin-left: 10px;
-}
-
-textarea {
-    height: 80px;
-}
-
-#button-form {
-    display: flex;
-}
-
-input[type="submit"], input[type="reset"] {
-    margin: 20px;
-    background-color: #8BC34A;
-    color: #FFF;
-    border: 0;
-    border-radius: 5px;
-}
-
-input[type="reset"] {
-    background-color: #F47E7E;
 }
